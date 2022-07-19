@@ -1,0 +1,23 @@
+{
+  "name": "@rawsaas/mongo-migrations",
+  "version": "0.0.1",
+  "description": "Rawsaas Product Migration Scripts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:up": "migrate-mongo up",
+    "migrate:down": "migrate-mongo down"
+  },
+  "keywords": [
+    "mongo",
+    "migrations",
+    "mongodb",
+    "rawsaas"
+  ],
+  "author": "Rawsaas",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "migrate-mongo": "^9.0.0"
+  }
+}
